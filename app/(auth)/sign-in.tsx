@@ -85,6 +85,7 @@ const SignIn = () => {
             <Text className="text-primary-500">Sign Up</Text>
           </Link>
         </View>
+        {/*Navigation modal*/}
       </View>
     </ScrollView>
   );
