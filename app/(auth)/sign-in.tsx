@@ -69,11 +69,7 @@ const SignIn = () => {
             onChangeText={(value) => setForm({ ...form, password: value })}
           />
 
-          <CustomButton
-            title="Sign In"
-            // onPress={onSignInPress}
-            className="mt-6"
-          />
+          <CustomButton title="Sign In" className="mt-6" />
 
           <OAuth />
 
@@ -81,11 +77,10 @@ const SignIn = () => {
             href="/sign-up"
             className="text-lg text-center text-general-200 mt-10"
           >
-            Don't have an account?{" "}
+            <Text> Don't have an account?</Text>
             <Text className="text-primary-500">Sign Up</Text>
           </Link>
         </View>
-        {/*Navigation modal*/}
       </View>
     </ScrollView>
   );
