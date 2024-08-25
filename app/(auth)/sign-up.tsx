@@ -74,6 +74,8 @@ const SignUp = () => {
       });
     }
   };
+
+  // need to resolve text error
   return (
     <ScrollView className="flex-1 bg-white">
       <View className="flex-1 bg-white">
