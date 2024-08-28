@@ -75,7 +75,6 @@ const SignUp = () => {
     }
   };
 
-  console.log("hello");
   return (
     <ScrollView className="flex-1 bg-white">
       <View className="flex-1 bg-white">
